@@ -4,8 +4,8 @@
           <div  class="card" id="dog-card">
             <img class="dog-img" :src="dog.image.url" alt="{{ dog.name }}">
             <div class="card-body" >
-              <h5 class="card-title">{{ dog.name }}</h5>
-              <h5 class="card-title">{{ dog.life_span }}</h5> 
+              <h6 style="font-weight: bold;" class="card-title">{{ dog.name }}</h6>
+              <h6 class="card-title">{{ dog.life_span }}</h6> 
             </div>
           </div>
         </div>
@@ -44,7 +44,7 @@ export default {
 #dog-card{
   margin: 7px;
   width: 60%;
-  height: 250px;
+  height: 260px;
 }
 .dog-img{
   width: 100%;
