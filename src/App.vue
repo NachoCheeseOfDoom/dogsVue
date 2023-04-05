@@ -9,7 +9,6 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import DogApi from "./components/DogApi.vue"; 
 import NavbarComponent from "./components/NavbarComponent.vue"; 
-  
 
 export default {
   name: "App",
