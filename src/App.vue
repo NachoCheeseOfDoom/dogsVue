@@ -1,8 +1,9 @@
 <template>
+  
   <NavbarComponent  > 
   </NavbarComponent>
-  <HelloWorld msg="Lista de perros" />
-  <DogApi></DogApi> 
+  <HelloWorld msg="Dog list" />
+  <DogApi></DogApi>
 </template>
 
 <script>
@@ -17,7 +18,15 @@ export default {
     DogApi,
     NavbarComponent
 },
+
+methods:{
+
+  offline(){
+    return window.navigator.onLine
+  }
+}
 };
+
 </script>
 
 <style>
